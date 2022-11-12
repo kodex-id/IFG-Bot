@@ -1,21 +1,21 @@
 #!/usr/bin/bash
 
-pkg upgrade -y
-pkg update -y
-pkg install nodejs -y
-pkg clean
-pkg install tty-clock -y
-pkg install sox -y
-pkg install jq -y
-pkg install mc -y
-pkg install figlet -y
-pkg install wget -y
-pkg install yarn
-pkg install ffmpeg
-pkg install libwebp -y
-pkg install nodejs -y
-pkg install tesseract -y
-pkg install imagemagick -y
+sudo apt-get upgrade -y
+sudo apt-get update -y
+sudo apt-get install nodejs -y
+sudo apt-get clean
+sudo apt-get install tty-clock -y
+sudo apt-get install sox -y
+sudo apt-get install jq -y
+sudo apt-get install mc -y
+sudo apt-get install figlet -y
+sudo apt-get install wget -y
+sudo apt-get install yarn
+sudo apt-get install ffmpeg
+sudo apt-get install libwebp -y
+sudo apt-get install nodejs -y
+sudo apt-get install tesseract -y
+sudo apt-get install imagemagick -y
 wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
 yarn
 
